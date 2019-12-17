@@ -1,7 +1,7 @@
-package Business;
+package com.polytech.Business;
 
-import Data.Story;
-import Data.StoryRepository;
+import com.polytech.data.Story;
+import com.polytech.data.StoryRepository;
 
 import java.util.List;
 
@@ -12,7 +12,7 @@ public class PublicationService {
         this.storyRepository = storyRepository;
     }
 
-    public void share(Story story){
+    public  void share(Story story){
         //business logic
         storyRepository.save(story);
     }

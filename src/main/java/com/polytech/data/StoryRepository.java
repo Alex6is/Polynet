@@ -1,4 +1,4 @@
-package Data;
+package com.polytech.data;
 
 import java.util.List;
 
